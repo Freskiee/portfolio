@@ -11,7 +11,7 @@ const Navbar = () => {
             <S.ContainerLogo>
                 <S.ImageLogo src='/img/logo-dev.png' alt='logo' />
                 <div>
-                    <h1>Ariel Freskiee</h1>
+                    <h1>Ariel Sánchez</h1>
                     <h2>Frontend Developer</h2>
                 </div>
             </S.ContainerLogo>

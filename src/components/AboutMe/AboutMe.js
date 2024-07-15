@@ -36,7 +36,7 @@ const AboutMe = () => {
                 <S.ContainerText>
                     <S.Title>
                         <p>👋🏼Hello, I'm</p>
-                        <p>Ariel Freskiee</p>
+                        <p>Ariel Sánchez</p>
                         <p>Frontend Developer</p>
                     </S.Title>
                     <S.DescriptionText>
