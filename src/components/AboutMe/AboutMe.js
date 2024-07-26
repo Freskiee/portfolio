@@ -2,8 +2,8 @@
 import * as S from './AboutMe.styles';
 import logoGithub from '../../svg/github.svg';
 import logoLinkedIn from '../../svg/linkedin.svg';
-import logoUdemy from '../../svg/udemy.svg';
-import logoYt from '../../svg/youtube.svg';
+// import logoUdemy from '../../svg/udemy.svg';
+// import logoYt from '../../svg/youtube.svg';
 
 const AboutMe = () => {
 
