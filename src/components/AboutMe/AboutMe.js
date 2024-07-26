@@ -18,16 +18,16 @@ const AboutMe = () => {
             link: 'https://www.linkedin.com/in/ariel-s%C3%A1nchez-peralta-72a9a426b/',
             logo: logoLinkedIn
         },
-        {
-            name: 'Udemy',
-            link: 'https://www.udemy.com/user/ariel-alfredo-sanchez-peralta/',
-            logo: logoUdemy
-        },
-        {
-            name: 'YouTube',
-            link: 'https://www.youtube.com/@arielfreskiee9509',
-            logo: logoYt
-        },
+        // {
+        //     name: 'Udemy',
+        //     link: 'https://www.udemy.com/user/ariel-alfredo-sanchez-peralta/',
+        //     logo: logoUdemy
+        // },
+        // {
+        //     name: 'YouTube',
+        //     link: 'https://www.youtube.com/@arielfreskiee9509',
+        //     logo: logoYt
+        // },
     ];
 
     return (
@@ -40,7 +40,12 @@ const AboutMe = () => {
                         <p>Frontend Developer</p>
                     </S.Title>
                     <S.DescriptionText>
-                        Ipsum consectetur culpa deserunt nostrud proident consequat fugiat laboris esse ex reprehenderit consequat mollit anim. Irure laboris deserunt Lorem pariatur. Ullamco mollit id aute excepteur. Est id excepteur ut ipsum enim in est consectetur magna qui veniam. Deserunt velit laborum non ut anim Lorem. Lorem consequat et enim aliquip. Anim et proident tempor officia elit incididunt.
+                        ¡Hola y bienvenido a mi portafolio!<br /><br />
+                        Soy Ariel Sánchez, un desarrollador principiante con proyectos básicos pero bien estructurados.<br /><br />
+                        Utilizo React para crear interfaces interactivas y Sass y CSS para el diseño.<br /><br />
+                        También empleo Styled Components, Semantic UI React, Bootstrap, y Chakra UI.<br /><br />
+                        Uso Vite para rendimiento, gestiono mi código en GitHub, y manejo rutas con React Router.<br /><br />
+                        Cada proyecto refleja mi pasión por aprender y mejorar.<br /><br />
                     </S.DescriptionText>
                     <S.ContainerIcons>
                         {socialNetworks.map((network, index) => (
