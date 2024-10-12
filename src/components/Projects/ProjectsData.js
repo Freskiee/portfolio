@@ -96,9 +96,11 @@ export const projectsPortfolio = [
         image: blackjackProject,
         techs: [
             { name: "Vite", src: viteImage },
+            { name: "CSS", src: cssImage },
+            { name: "React Bootstrap", src: reactBootstrapImage },
         ],
         description:
-            "Application created with Vite where you can play Blackjack 21",
+            "Application created with Vite, CSS and Bootstrap where you can play Blackjack 21",
         repository: "https://github.com/Freskiee/blackjack-app",
         website: "https://ariel-build-app.netlify.app/",
     },
