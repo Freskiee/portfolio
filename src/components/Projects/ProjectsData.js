@@ -102,6 +102,6 @@ export const projectsPortfolio = [
         description:
             "Application created with Vite, CSS and Bootstrap where you can play Blackjack 21",
         repository: "https://github.com/Freskiee/blackjack-app",
-        website: "https://ariel-build-app.netlify.app/",
+        website: "https://blackjack-freskiee.netlify.app/",
     },
 ];
