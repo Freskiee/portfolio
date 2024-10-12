@@ -13,6 +13,7 @@ import gasolineraProject from "../../images/projects/gasolinera.jpg";
 import marvelProject from "../../images/projects/marvel.jpg";
 import rickMorty from "../../images/projects/rick-morty.jpg";
 import tareasProject from "../../images/projects/todo.jpg";
+import blackjackProject from '../../images/projects/blackjack.png';
 
 export const projectsPortfolio = [
     {
@@ -89,5 +90,16 @@ export const projectsPortfolio = [
             "Application created with Vite where you can save the information and see it on a summary",
         repository: "https://github.com/Freskiee/gasolinera-vite",
         website: "https://gasolinera-freskiee.netlify.app/",
+    },
+    {
+        title: "BlackJack",
+        image: blackjackProject,
+        techs: [
+            { name: "Vite", src: viteImage },
+        ],
+        description:
+            "Application created with Vite where you can play Blackjack 21",
+        repository: "https://github.com/Freskiee/blackjack-app",
+        website: "https://ariel-build-app.netlify.app/",
     },
 ];
