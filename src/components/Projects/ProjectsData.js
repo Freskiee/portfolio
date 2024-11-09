@@ -115,7 +115,7 @@ export const projectsPortfolio = [
         ],
         description:
             "Aplicación creada con JavaScript y CSS, donde puedes agregar diferentes productos a un carrito de compras, eliminar o vaciar tu carrito.",
-        repository: "https://github.com/Freskiee/blackjack-app",
+        repository: "https://github.com/Freskiee",
         website: "https://carrito-de-compras-freskiee.netlify.app/",
     },
 ];
