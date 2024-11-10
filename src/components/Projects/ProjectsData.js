@@ -7,6 +7,7 @@ import semanticImage from "../../images/techs/semantic.png";
 import styledImage from "../../images/techs/styled-logo.png";
 import viteImage from "../../images/techs/vite.png";
 import cssImage from "../../images/techs/css.png";
+import htmlImage from '../../images/techs/html.png';
 import jsImage from '../../images/techs/js-transparent.png';
 import simpsonProject from "../../images/projects/simpson.jpg";
 import dymamicFormProject from "../../images/projects/dynamic.jpg";
@@ -16,6 +17,7 @@ import rickMorty from "../../images/projects/rick-morty.jpg";
 import tareasProject from "../../images/projects/todo.jpg";
 import blackjackProject from '../../images/projects/blackjack.png';
 import carritoCompras from '../../images/projects/carritoCompras.png';
+import simuladorEmail from '../../images/projects/enviar_email.png';
 
 export const projectsPortfolio = [
     {
@@ -69,7 +71,7 @@ export const projectsPortfolio = [
         website: "https://marvel-app-freskiee.netlify.app/",
     },
     {
-        title: "Dynamic Form",
+        title: "Formulario dinámico",
         image: dymamicFormProject,
         techs: [
             { name: "React JS", src: reactImage },
@@ -81,7 +83,7 @@ export const projectsPortfolio = [
         website: "https://dynamic-form-freskiee.netlify.app/",
     },
     {
-        title: "Fuel Station",
+        title: "Estación de Gasolina",
         image: gasolineraProject,
         techs: [
             { name: "Vite", src: viteImage },
@@ -112,10 +114,24 @@ export const projectsPortfolio = [
         techs: [
             { name: "Javascript", src: jsImage },
             { name: "CSS", src: cssImage },
+            { name: "HTML", src: htmlImage },
         ],
         description:
-            "Aplicación creada con JavaScript y CSS, donde puedes agregar diferentes productos a un carrito de compras, eliminar o vaciar tu carrito.",
+            "Aplicación creada con JavaScript, HTML y CSS, donde puedes agregar diferentes productos a un carrito de compras, eliminar o vaciar tu carrito.",
         repository: "https://github.com/Freskiee/15-PROYECTO-Carrito",
         website: "https://carrito-de-compras-freskiee.netlify.app/",
+    },
+    {
+        title: "Simulador de envio de emails",
+        image: simuladorEmail,
+        techs: [
+            { name: "Javascript", src: jsImage },
+            { name: "CSS", src: cssImage },
+            { name: "HTML", src: htmlImage },
+        ],
+        description:
+            "Aplicación creada con JavaScript, HTML y CSS, donde puedes simular el envio de un email, con validaciones en cada campo.",
+        repository: "https://github.com/Freskiee/simulador-de-envios-de-email",
+        website: "https://simulador-email-freskiee.netlify.app/",
     },
 ];
