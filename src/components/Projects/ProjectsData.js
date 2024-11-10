@@ -18,6 +18,7 @@ import tareasProject from "../../images/projects/todo.jpg";
 import blackjackProject from '../../images/projects/blackjack.png';
 import carritoCompras from '../../images/projects/carritoCompras.png';
 import simuladorEmail from '../../images/projects/enviar_email.png';
+import buscadorMultiple from '../../images/projects/buscador-autos.png';
 
 export const projectsPortfolio = [
     {
@@ -133,5 +134,18 @@ export const projectsPortfolio = [
             "Aplicación creada con JavaScript, HTML y CSS, donde puedes simular el envio de un email, con validaciones en cada campo.",
         repository: "https://github.com/Freskiee/simulador-de-envios-de-email",
         website: "https://simulador-email-freskiee.netlify.app/",
+    },
+    {
+        title: "Buscador múltiples campos",
+        image: buscadorMultiple,
+        techs: [
+            { name: "Javascript", src: jsImage },
+            { name: "CSS", src: cssImage },
+            { name: "HTML", src: htmlImage },
+        ],
+        description:
+            "Aplicación creada con JavaScript, HTML y CSS, donde puedes filtrar tus busquedas dependiendo el campo que te interese buscar.",
+        repository: "https://github.com/Freskiee/buscador-multiples-campos",
+        website: "https://buscador-multiple-freskiee.netlify.app/",
     },
 ];
