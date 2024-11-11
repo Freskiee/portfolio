@@ -19,6 +19,7 @@ import blackjackProject from '../../images/projects/blackjack.png';
 import carritoCompras from '../../images/projects/carritoCompras.png';
 import simuladorEmail from '../../images/projects/enviar_email.png';
 import buscadorMultiple from '../../images/projects/buscador-autos.png';
+import twitter from '../../images/projects/tweets.png';
 
 export const projectsPortfolio = [
     {
@@ -147,5 +148,18 @@ export const projectsPortfolio = [
             "Aplicación creada con JavaScript, HTML y CSS, donde puedes filtrar tus busquedas dependiendo el campo que te interese buscar.",
         repository: "https://github.com/Freskiee/buscador-multiples-campos",
         website: "https://buscador-multiple-freskiee.netlify.app/",
+    },
+    {
+        title: "Twitter",
+        image: twitter,
+        techs: [
+            { name: "Javascript", src: jsImage },
+            { name: "CSS", src: cssImage },
+            { name: "HTML", src: htmlImage },
+        ],
+        description:
+            "Aplicación creada con JavaScript, HTML y CSS, donde puedes agregar y eliminar tweets, haciendola consistente almacenando la información y actualizando mediante el localStorage.",
+        repository: "https://github.com/Freskiee/twitter-localstorage",
+        website: "https://twitter-freskiee.netlify.app/",
     },
 ];

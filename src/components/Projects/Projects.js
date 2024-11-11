@@ -8,11 +8,11 @@ const Projects = () => {
     return (
         <S.ContainerProjects id='projects'>
             <S.Title>
-                Some of {' '}
+                Algunos de {' '}
                 <span>
                     {' '}
                     <br />
-                    My projects
+                    Mis proyectos
                 </span>
             </S.Title>
             <S.ContentProjects>
@@ -20,7 +20,9 @@ const Projects = () => {
                     <S.ProjectContent key={index}>
                         <S.TitleProject>{project.title}</S.TitleProject>
                         <S.ContainerImage>
+                            <a href={project.website} target='_blank' rel='noreferrer'>
                             <img src={project.image} alt={project.title} loazy='true' />
+                            </a>
                         </S.ContainerImage>
                         <S.ContainerTechs>
                             {project.techs.map((tech, index) => (
