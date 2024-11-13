@@ -20,6 +20,7 @@ import carritoCompras from '../../images/projects/carritoCompras.png';
 import simuladorEmail from '../../images/projects/enviar_email.png';
 import buscadorMultiple from '../../images/projects/buscador-autos.png';
 import twitter from '../../images/projects/tweets.png';
+import cotizaSeguro from '../../images/projects/cotizacion-seguro.png';
 
 export const projectsPortfolio = [
     {
@@ -161,5 +162,18 @@ export const projectsPortfolio = [
             "Aplicación creada con JavaScript, HTML y CSS, donde puedes agregar y eliminar tweets, haciendola consistente almacenando la información y actualizando mediante el localStorage.",
         repository: "https://github.com/Freskiee/twitter-localstorage",
         website: "https://twitter-freskiee.netlify.app/",
+    },
+    {
+        title: "Cotizador de seguros",
+        image: cotizaSeguro,
+        techs: [
+            { name: "Javascript", src: jsImage },
+            { name: "CSS", src: cssImage },
+            { name: "HTML", src: htmlImage },
+        ],
+        description:
+            "Aplicación de cotización de seguros de auto, creada con JavaScript, HTML y CSS, donde puedes ingresar datos del vehículo (marca, año y tipo de seguro) para calcular el costo. Muestra el resultado en pantalla con un desglose y utiliza mensajes de error o éxito para guiar al usuario. La aplicación incluye animación con un spinner de carga y permite seleccionar entre años recientes.",
+        repository: "https://github.com/Freskiee/cotizador-seguros",
+        website: "https://cotiza-tu-seguro-freskiee.netlify.app/",
     },
 ];
