@@ -21,6 +21,7 @@ import simuladorEmail from '../../images/projects/enviar_email.png';
 import buscadorMultiple from '../../images/projects/buscador-autos.png';
 import twitter from '../../images/projects/tweets.png';
 import cotizaSeguro from '../../images/projects/cotizacion-seguro.png';
+import presupuestoImg from '../../images/projects/presupuesto.png';
 
 export const projectsPortfolio = [
     {
@@ -172,8 +173,21 @@ export const projectsPortfolio = [
             { name: "HTML", src: htmlImage },
         ],
         description:
-            "Aplicación de cotización de seguros de auto, creada con JavaScript, HTML y CSS, donde puedes ingresar datos del vehículo (marca, año y tipo de seguro) para calcular el costo. Muestra el resultado en pantalla con un desglose y utiliza mensajes de error o éxito para guiar al usuario. La aplicación incluye animación con un spinner de carga y permite seleccionar entre años recientes.",
+            "Aplicación de cotización de seguros de auto en JavaScript, HTML y CSS. Permite ingresar datos del vehículo para calcular el costo del seguro, mostrando un desglose y alertas visuales. Incluye un spinner de carga y opciones de selección de año.",
         repository: "https://github.com/Freskiee/cotizador-seguros",
         website: "https://cotiza-tu-seguro-freskiee.netlify.app/",
+    },
+    {
+        title: "Gasto semanal",
+        image: presupuestoImg,
+        techs: [
+            { name: "Javascript", src: jsImage },
+            { name: "CSS", src: cssImage },
+            { name: "HTML", src: htmlImage },
+        ],
+        description:
+            "Aplicación de presupuesto en JavaScript que permite gestionar gastos y visualizar el saldo restante en tiempo real, con alertas visuales y opción para eliminar gastos.",
+        repository: "https://github.com/Freskiee/GastoSemanal",
+        website: "https://gasto-semanal-freskiee.netlify.app/",
     },
 ];
