@@ -27,9 +27,9 @@ const Navbar = () => {
             </S.ContainerBurger>
 
             <S.ContainerItems showMenuBurger={showMenuBurger}>
-                <p onClick={() => clickItemNav('about-me')}>About me</p>
-                <p onClick={() => clickItemNav('projects')}>Projects</p>
-                <S.Button onClick={() => clickItemNav('contact')}>📲Contact me</S.Button>
+                <p onClick={() => clickItemNav('about-me')}>¿Quién soy?</p>
+                <p onClick={() => clickItemNav('projects')}>Proyectos</p>
+                <S.Button onClick={() => clickItemNav('contact')}>📲Pongámonos en contacto.</S.Button>
             </S.ContainerItems>
         </S.ContainerNavbar >
     );

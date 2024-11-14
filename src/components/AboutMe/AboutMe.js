@@ -35,17 +35,15 @@ const AboutMe = () => {
             <S.ContainerFlex>
                 <S.ContainerText>
                     <S.Title>
-                        <p>👋🏼Hello, I'm</p>
+                        <p>👋🏼Hola, Soy</p>
                         <p>Ariel Sánchez</p>
                         <p>Frontend Developer</p>
                     </S.Title>
                     <S.DescriptionText>
-                        ¡Hola y bienvenido a mi portafolio!<br /><br />
-                        Soy Ariel Sánchez, un desarrollador principiante con proyectos básicos pero bien estructurados.<br /><br />
-                        Utilizo React para crear interfaces interactivas y Sass y CSS para el diseño.<br /><br />
-                        También empleo Styled Components, Semantic UI React, Bootstrap, y Chakra UI.<br /><br />
-                        Uso Vite para rendimiento, gestiono mi código en GitHub, y manejo rutas con React Router.<br /><br />
-                        Cada proyecto refleja mi pasión por aprender y mejorar.<br /><br />
+                        ¡Hola, bienvenido a mi portafolio!<br /><br />
+                        Soy Ariel Sánchez, un desarrollador en formación, con proyectos básicos que destacan por su estructura y atención al detalle.<br /><br />
+                        Mis áreas de trabajo incluyen JavaScript y React para construir interfaces, y he explorado herramientas de diseño como Sass, Bootstrap, Styled Components y Chakra UI para crear experiencias visualmente agradables. Además, me apoyo en Vite para optimizar el rendimiento de los proyectos y utilizo GitHub para gestionar el código.<br /><br />
+                        Cada proyecto refleja mi compromiso por aprender y mi pasión por la programación, con un enfoque en mejorar continuamente mis habilidades y conocimientos.<br /><br />
                     </S.DescriptionText>
                     <S.ContainerIcons>
                         {socialNetworks.map((network, index) => (

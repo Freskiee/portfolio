@@ -51,7 +51,7 @@ const Contact = () => {
             <S.Title>📲 Contact with me</S.Title>
             <S.ContainerForm>
                 {successSendForm ? (
-                    <S.SucessMessage>The form was sent succesfully</S.SucessMessage>
+                    <S.SucessMessage>El formulario fue enviado con éxito.</S.SucessMessage>
                 ) : (
                     <S.Form onSubmit={onSubmit} ref={form}>
                         <S.InputForm
@@ -90,16 +90,16 @@ const Contact = () => {
                                     })
                                 }
                             />
-                            <span>Accept the terms and conditions</span>
+                            <span>Acepto los términos y condiciones.</span>
                         </S.ContainerConditions>
-                        <S.Button type="submit">Send</S.Button>
+                        <S.Button type="submit">Enviar</S.Button>
                     </S.Form>
                 )}
                 {emptyInputs && (
-                    <p>You should fill all the inputs and accept the terms</p>
+                    <p>Debes llenar todos los campos y aceptar los términos y condiciones.</p>
                 )}
                 {errorSendForm && (
-                    <S.TextError>There was an error, try it later.</S.TextError>
+                    <S.TextError>Ocurrió un error, por favor intentalo nuevamente.</S.TextError>
                 )}
             </S.ContainerForm>
         </S.ContainerContact>
