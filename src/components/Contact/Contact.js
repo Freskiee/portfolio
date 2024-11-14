@@ -48,14 +48,14 @@ const Contact = () => {
 
     return (
         <S.ContainerContact id="contact">
-            <S.Title>📲 Contact with me</S.Title>
+            <S.Title>📲 ¡Contáctame!</S.Title>
             <S.ContainerForm>
                 {successSendForm ? (
                     <S.SucessMessage>El formulario fue enviado con éxito.</S.SucessMessage>
                 ) : (
                     <S.Form onSubmit={onSubmit} ref={form}>
                         <S.InputForm
-                            placeholder="Your name"
+                            placeholder="Tu nombre"
                             type="text"
                             name="name"
                             onChange={(e) =>
@@ -64,7 +64,7 @@ const Contact = () => {
                             value={contactDates.name}
                         />
                         <S.InputForm
-                            placeholder="Your email"
+                            placeholder="Tu correo"
                             type="email"
                             name="email"
                             onChange={(e) =>
@@ -73,7 +73,7 @@ const Contact = () => {
                             value={contactDates.email}
                         />
                         <S.TextArea
-                            placeholder="Write your message"
+                            placeholder="Escribe tu mensaje..."
                             name="message"
                             onChange={(e) =>
                                 setContactDates({ ...contactDates, message: e.target.value })
