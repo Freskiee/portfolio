@@ -22,6 +22,7 @@ import buscadorMultiple from '../../images/projects/buscador-autos.png';
 import twitter from '../../images/projects/tweets.png';
 import cotizaSeguro from '../../images/projects/cotizacion-seguro.png';
 import presupuestoImg from '../../images/projects/presupuesto.png';
+import veterinariaImg from '../../images/projects/veterinaria.png';
 
 export const projectsPortfolio = [
     {
@@ -189,5 +190,18 @@ export const projectsPortfolio = [
             "Aplicación de presupuesto en JavaScript que permite gestionar gastos y visualizar el saldo restante en tiempo real, con alertas visuales y opción para eliminar gastos.",
         repository: "https://github.com/Freskiee/GastoSemanal",
         website: "https://gasto-semanal-freskiee.netlify.app/",
+    },
+    {
+        title: "Gestión de citas",
+        image: veterinariaImg,
+        techs: [
+            { name: "Javascript", src: jsImage },
+            { name: "CSS", src: cssImage },
+            { name: "HTML", src: htmlImage },
+        ],
+        description:
+            "Aplicación de gestión de citas veterinarias en JavaScript que permite registrar, editar y eliminar citas de pacientes. Incluye una interfaz dinámica con notificaciones visuales claras y un manejo eficiente de datos mediante programación orientada a objetos y generación de IDs únicos.",
+        repository: "https://github.com/Freskiee/veterinaria",
+        website: "https://veterinaria-freskiee.netlify.app/",
     },
 ];
